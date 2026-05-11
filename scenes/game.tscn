@@ -458,10 +458,10 @@ unique_name_in_owner = true
 script = ExtResource("1_3kpk8")
 
 [node name="ScoreLabel" type="Label" parent="GameManager"]
-offset_left = 485.0
-offset_top = -183.0
-offset_right = 572.0
-offset_bottom = -153.0
+offset_left = 483.0
+offset_top = -177.0
+offset_right = 570.0
+offset_bottom = -147.0
 theme_override_colors/font_color = Color(0.0117647, 0.14902, 0.34902, 1)
 theme_override_fonts/font = ExtResource("2_07v6f")
 theme_override_font_sizes/font_size = 8
@@ -471,7 +471,7 @@ autowrap_mode = 2
 
 [node name="Player" parent="." instance=ExtResource("1_78hag")]
 z_index = 5
-position = Vector2(471, 18)
+position = Vector2(3, 24)
 
 [node name="Camera2D" type="Camera2D" parent="Player"]
 position = Vector2(0, -7)
@@ -575,10 +575,10 @@ theme_override_font_sizes/font_size = 8
 text = "Almost there..."
 
 [node name="Label4" type="Label" parent="Labels"]
-offset_left = 483.0
-offset_top = -205.0
-offset_right = 593.0
-offset_bottom = -182.0
+offset_left = 480.0
+offset_top = -195.0
+offset_right = 590.0
+offset_bottom = -172.0
 theme_override_colors/font_color = Color(0.0117647, 0.14902, 0.34902, 1)
 theme_override_fonts/font = ExtResource("8_5eqj7")
 theme_override_font_sizes/font_size = 8
